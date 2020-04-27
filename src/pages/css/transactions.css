@@ -1,0 +1,214 @@
+.transactions{
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+
+
+.transactions .link{
+    text-decoration:none;
+}
+
+
+.transactions .background{
+    position:fixed;
+    width:100vw;
+    height:40vh;
+    top:0;
+    left:0;
+    z-index:-10;
+}
+
+
+.transactions .content{
+    position:absolute;
+    width:70vw;
+    overflow-y:scroll;
+    top:25vh;
+    left:0;
+    padding:5vh 15vw 15vh 15vw;
+    background:#fff;
+    overflow-x:hidden;
+    border-radius:10px 10px 0 0;
+}
+
+
+.transactions .content .one{
+    overflow-x:hidden;
+}
+.transactions .content .one .head{
+    font-size:5vw;
+    font-weight:bold;
+    color:teal;
+}
+.transactions .content .one .subhead{
+    font-size:3vw;
+}
+
+
+
+
+
+.transactions .content .two{
+    overflow-x:hidden;
+    padding-top:2vh;
+    text-align:left;
+}
+
+.transactions .content .search{
+    border-radius:50px;
+    background:rgb(231, 231, 231);
+    padding:.5vh 5vw;
+    display:grid;
+    grid-template-columns:1fr 9fr;
+    align-items:stretch;
+    margin-bottom:3vh;
+}
+.transactions .content .search .icon-container{
+    flex-grow:1;
+}
+.transactions .content .search .search-container{
+    flex-grow:3;
+}
+.transactions .content .search .icons{
+    fill:rgb(5, 112, 128);
+    width:3vw;
+}
+.transactions .content .search input{
+    border:none;
+    background:none;
+    outline:none;
+    color:#000;
+    width:100%;
+    font-size:3vw;
+}
+.transactions .content .two .items{
+    display:grid;
+    grid-template-columns:1fr 2fr;
+    border:1px solid rgb(231, 231, 231);
+    margin-bottom:2rem;
+    color:rgb(79, 79, 79);
+    border-radius:15px 15px 0 15px;
+}
+.transactions .content .two .items .text{
+    text-align:left;
+    padding:1rem 1rem;
+}
+.transactions .content .two .items .img{
+    border-radius:15px 0 0 15px;
+}
+.transactions .content .two .bought-item .text{
+    border-bottom:3px green solid;
+}
+.transactions .content .two .sold-item .text{
+    border-bottom:3px rgb(226, 117, 135) solid;
+}
+.transactions .content .two .to-sell-item .text{
+    border-bottom:3px orange solid;
+}
+.transactions .content .two .to-buy-item .text{
+    border-bottom:3px rgb(60, 151, 187) solid;
+}
+.transactions .content .two .items .text .title{
+    font-size:3vw;
+}
+.transactions .content .two .items .text .sub-title .percentage{
+    font-weight:bold;
+    color:teal;
+}
+.transactions .content .two .items .text .data{
+    margin-top:2vh;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}
+.transactions .content .two .items .text .data .tabs{
+    margin-bottom:1rem;
+    padding-right:1vw;
+}
+.transactions .content .two .items .text .data .value,
+.transactions .content .two .items .text .data .label{
+    display:block;
+}
+.transactions .content .two .items .text .data .value{
+    font-size:3vw;
+    font-weight:bold;
+}
+.transactions .content .two .items .text .data .label{
+    font-size:2vw;
+}
+.transactions .content .two .items .text .status{
+    margin-bottom:.5rem;
+}
+.transactions .content .two .items .text .status .container{
+    padding:.5vh 3vw;
+    font-size:2vw;
+    color:#000;
+    text-align:center;
+}
+.transactions .content .two .items .text .status .sell{
+    background:#e09c9c
+}
+.transactions .content .two .items .text .status .buy{
+    background:#9ce0b8;
+}
+.transactions .content .two .items .text .action{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}
+.transactions .content .two .items .text button{
+    border:none;
+    outline:none;
+    text-decoration:none;
+    padding:.5vh 0;
+    width:98%;
+    font-size:2.5vw;
+}
+.transactions .content .two .items .text .action .accept{
+    background:teal;
+    color:#fff;
+    border-radius:5px 0 0 5px
+}
+.transactions .content .two .items .text .action .decline{
+    background:rgb(226, 117, 135);
+    color:#fff;
+    border-radius:0 5px 5px 0;
+}
+.transactions .content .two .items .text .date{
+    margin-bottom:.5rem;
+}
+.transactions .content .two .items .text .date .label{
+    display:block;
+    font-size:3vw;
+    margin-bottom:.5vh;
+}
+.transactions .content .two .sold-item .text .date .container{
+    background:#e09c9c;
+    padding:.5vh 3vw;
+    font-size:2vw;
+    color:#000;
+    width:30vw;
+}
+.transactions .content .two .bought-item .text .date .container{
+    background:#9ce0b8;
+    padding:.5vh 3vw;
+    font-size:2vw;
+    color:#000;
+    width:30vw;
+}
+.transactions .content .two .items .text .buttons{
+    border:none;
+    text-decoration:none;
+    border-radius:5px;
+    color:#fff;
+    font-size:2.5vw;
+    padding:.5vh 3vw;
+    margin-top:1vh;
+}
+.transactions .content .two .items .text .download-receipt{
+    background:teal;
+}
+.transactions .content .two .items .text .user-profile{
+    background:rgb(49, 128, 197);
+}
+.transactions .content .two .items .text .view-property{
+    background:#909090;
+}

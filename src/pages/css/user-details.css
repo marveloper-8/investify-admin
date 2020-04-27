@@ -1,0 +1,110 @@
+.user-details{
+    padding:10vh 15vw;
+}
+.user-details .link{
+    text-decoration:none;
+}
+
+
+.user-details .one{
+    display:grid;
+    padding-bottom:2.5vh;
+    text-align:center;
+    border-bottom:1px #dadada solid;
+}
+.user-details .one .avatar{
+    text-align:center;
+    margin:0 auto;
+}
+.user-details .one .avatar .container{
+    border-radius:70vw;
+    border:#909090 1px solid;
+    background:#fff;
+    width:70vw;
+    height:70vw;
+}
+.user-details .one .name{
+    font-size:5vw;
+    font-weight:bold;
+    color:teal;
+    margin-top:1vh;
+}
+.user-details .one .email{
+    font-size:3vw;
+    font-weight:bold;
+}
+.user-details .one .phone{
+    font-size:3vw;
+}
+
+
+
+.user-details .two{
+    padding:5vh 0;
+    border-bottom:1px #dadada solid;
+}
+.user-details .two .tab{
+    border:1.5px #909090 solid;
+    border-radius:5px 5px 0 5px;
+    display:grid;
+    margin-bottom:3vh;
+    grid-template-columns:1fr 12fr;
+    padding:2vh 3vw;
+}
+.user-details .two .tab .icon-container .icon{
+    width:100%;
+}
+.user-details .two .tab .text{
+    padding-left:7.5vw;
+}
+.user-details .two .tab .text .head{
+    font-size:3vw;
+    font-weight:bold;
+}
+.user-details .two .tab .text .content{
+    font-size:3vw;
+}
+
+
+
+.user-details .three{
+    padding:5vh 0;
+    text-align:left;
+    border-bottom:1px #dadada solid;
+}
+.user-details .three .tab{
+    margin-bottom:3vh;
+    border:1px solid rgb(199, 199, 199);
+    padding:0;
+    border-radius:5px 5px 0 5px;
+    display:grid;
+    grid-template-columns:1fr 4fr 1fr;
+    color:#000;
+}
+.user-details .three .tab .tab-icon{
+    background:#cecece;
+    border-radius:5px 0 0 5px;
+    padding:2vh 5%;
+    text-align:center;
+}
+.user-details .three .tab .text{
+    padding:2vh 5%;
+    font-size:3vw;
+}
+.user-details .three .tab .arrow{
+    padding:2vh 5%;
+    text-align:center;
+}
+.user-details .three .tab .tab-icon .icons{
+    height:5vw;
+}
+.user-details .three .tab .arrow .icons{
+    height:5vw;
+}
+
+
+
+.user-details .four{
+    padding:5vh 0;
+    text-align:left;
+}

@@ -1,0 +1,143 @@
+.properties-details{
+    padding-bottom:10vh;
+    text-align:center;
+}
+
+.properties-details .image{
+    width:100vw;
+    height:20vh;
+}
+
+
+.properties-details .content{
+    padding:5vh 15vw;
+}
+
+
+.properties-details .content .one{
+    display:grid;
+    padding-bottom:2vh;
+    border-bottom:1px #dadada solid;
+    text-align:center;
+}
+.properties-details .content .one .name{
+    font-size:5vw;
+    margin-bottom:1vh;
+    font-weight:bold;
+}
+.properties-details .content .one .price .value{
+    font-size:5vw;
+    color:teal;
+    font-weight:bold;
+}
+.properties-details .content .one .price .label{
+    font-size:3vw;
+}
+
+
+
+.properties-details .content .two{
+    padding:2vh 0;
+    border-bottom:1px solid #dadada;
+    font-size:3vw;
+}
+.properties-details .content .two .property-available .value-container .value-available{
+    font-size:5vw;
+    color:teal;
+    font-weight:bold;
+}
+.properties-details .content .two .property-owned .value-container .value-owned{
+    font-size:5vw;
+    color:#6e1717;
+    font-weight:bold;
+}
+.properties-details .content .two .about{
+    color:teal;
+    background:#fff;
+}
+
+
+.properties-details .content .three{
+    padding:2vh 0;
+    border-bottom:1px solid #dadada;
+}
+.properties-details .content .three .title{
+    text-align:left;
+    padding-bottom:.5rem;
+    font-weight:bold;
+    font-size:3vw;
+    color:#909090;
+}
+.properties-details .content .three .three-content{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}
+.properties-details .content .three .three-content .left .tabs .label,
+.properties-details .content .three .three-content .left .tabs .text{
+    text-align:left;
+}
+.properties-details .content .three .three-content .right .tabs .label,
+.properties-details .content .three .three-content .right .tabs .text{
+    text-align:right;
+}
+.properties-details .content .three .three-content .column{
+    padding:0 .25rem;
+}
+.properties-details .content .three .three-content .column .tabs{
+    border:1px #dadada solid;
+    border-radius:5px;
+    padding:.5rem;
+    text-align:left;
+    margin:.5rem 0;
+}
+.properties-details .content .three .three-content .column .tabs .label{
+    color:#909090;
+    font-size:3vw;
+    display:block;
+}
+.properties-details .content .three .three-content .column .tabs .text{
+    font-size:3vw;
+    font-weight:bold;
+    display:block;
+}
+
+
+.properties-details .content .four{
+    padding:2vh 0;
+}
+.properties-details .content .four .title{
+    text-align:left;
+    padding-bottom:.5rem;
+    font-weight:bold;
+    font-size:3vw;
+    color:#909090;
+}
+.properties-details .content .four .image{
+    width:100%;
+    height:15vh;
+}
+.properties-details .content .four .text{
+    padding-top:1vh;
+    text-align:justify;
+    font-size:3vw;
+}
+
+.properties-details .content .button{
+    font-size:3vw;
+    margin-bottom:1vh;
+    border:none;
+    color:#fff;
+    outline:none;
+    padding:1vh 0;
+    width:100%;
+    border-radius:5px;
+}
+.properties-details .content .edit-property{
+    background:teal;
+}
+.properties-details .content .add-property{
+    background:green;
+}
+.properties-details .content .delete-property{
+    background:rgb(226, 117, 135);
+}

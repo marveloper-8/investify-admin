@@ -1,0 +1,283 @@
+.properties{
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+
+
+
+/* link */
+.properties .link{
+    text-decoration:none;
+}
+/* .link */
+
+
+
+/* background */
+.properties .background{
+    position:fixed;
+    width:100vw;
+    height:40vh;
+    top:0;
+    left:0;
+    z-index:-10;
+}
+/* .background */
+
+
+
+/* content */
+.properties .content{
+    position:absolute;
+    width:70vw;
+    overflow-y:scroll;
+    top:25vh;
+    left:0;
+    padding:5vh 15vw 15vh 15vw;
+    background:#fff;
+    overflow-x:hidden;
+    border-radius:10px 10px 0 0;
+}
+/* .content */
+
+
+
+/* one */
+.properties .one{
+    overflow-x:hidden;
+}
+.properties .one .one-head{
+    font-size:5vw;
+    font-weight:bold;
+    color:teal;
+}
+.properties .one .one-subhead{
+    font-size:3vw;
+}
+/* .one */
+
+
+
+/* two */
+.properties .two{
+    overflow-x:hidden;
+    padding-top:3vh;
+    text-align:left;
+}
+/* .two */
+
+
+
+/* .start properties */
+.properties .properties-tab{
+    margin-bottom:3vh;
+    border:1px solid rgb(199, 199, 199);
+    padding:0;
+    border-radius:5px 5px 0 5px;
+    display:grid;
+    grid-template-columns:1fr 4fr 1fr;
+    color:#000;
+}
+.properties .properties-tab .tab-icon{
+    background:#cecece;
+    border-radius:5px 0 0 5px;
+    padding:2vh 5%;
+    text-align:center;
+}
+.properties .properties-tab .text{
+    padding:2vh 5%;
+    font-size:3vw;
+}
+.properties .properties-tab .arrow{
+    padding:2vh 5%;
+    text-align:center;
+}
+.properties .properties-tab .tab-icon .icons{
+    height:4vw;
+}
+.properties .properties-tab .arrow .icons{
+    height:3vw;
+}
+
+
+
+/* properties */
+.properties .one{
+    overflow-x:hidden;
+}
+.properties .one .head{
+    font-size:5vw;
+    font-weight:bold;
+    color:teal;
+}
+.properties .one .subhead{
+    font-size:3vw;
+}
+
+
+
+.properties .two{
+    overflow-x:hidden;
+    padding-top:3vh;
+    text-align:left;
+}
+.properties .two .search{
+    border-radius:50px;
+    background:rgb(231, 231, 231);
+    padding:1vh 5vw;
+    display:grid;
+    grid-template-columns:1fr 9fr;
+    align-items:stretch;
+    margin-bottom:3vh;
+}
+.properties .two .search .icons{
+    fill:rgb(5, 112, 128);
+    width:3vw;
+}
+.properties .two .search input{
+    border:none;
+    background:none;
+    outline:none;
+    color:#000;
+    width:100%;
+    font-size:3vw;
+}
+.properties .two .items{
+    display:grid;
+    border-radius:15px 15px 0 15px;
+    grid-template-columns:1fr 2fr;
+    border:1px solid rgb(231, 231, 231);
+    margin-bottom:2rem;
+    color:rgb(79, 79, 79);
+}
+.properties .two .items .img{
+    border-radius:15px 0 0 15px;
+}
+.properties .two .items .text{
+    text-align:left;
+    padding:1rem 1rem;
+}
+.properties .two .items .text .title{
+    font-weight:bold;
+    font-size:3vw;
+}
+.properties .two .items .text .sub-title{
+    font-size:3.5vw;
+}
+.properties .two .items .text .sub-title .percentage{
+    font-weight:bold;
+    color:teal;
+}
+.properties .two .items .text .data{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    margin-top:1rem;
+}
+.properties .two .items .text .data .tabs{
+    margin-bottom:1rem;
+}
+.properties .two .items .text .data .value,
+.two .items .text .data .label{
+    display:block;
+}
+.properties .two .items .text .data .value{
+    font-size:3vw;
+    font-weight:bold;
+}
+.properties .two .items .text .data .label{
+    font-size:2.5vw;
+    padding-right:1vw;
+}
+.properties .two .items .text .view-property{
+    border:none;
+    text-decoration:none;
+    color:#fff;
+    font-size:2.5vw;
+    padding:.5vh 1.5vw;
+    border-radius:5px;
+    background:teal;
+    width:100%;
+    margin-top:1vh;
+}
+.properties .two .items .text .date{
+    margin-bottom:.5rem;
+}
+.properties .two .items .text .date .label{
+    font-size:2.5vw;
+}
+.properties .two .items .text .date .container{
+    padding:.5vh 1.5vw;
+    font-size:2.5vw;
+    color:#000;
+}
+.properties .two .items .text .date-bought .container{
+    background:#9ce0b8;
+}
+.properties .two .items .text .date-sold .container{
+    background:#e09c9c;
+}
+.properties .two .items .text .buttons{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}
+.properties .two .items .text .buttons button{
+    display:block;
+    text-align:center;
+}
+.properties .two .items .text .download-receipt,
+.two .items .text .view-property-two{
+    border:none;
+    text-decoration:none;
+    color:#fff;
+    font-size:2.5vw;
+    padding:.5vh 1.5vw;
+    margin-top:1vh;
+    margin-right:.25vw;
+    width:100%;
+}
+.properties .two .items .text .download-receipt{
+    border-radius:5px;
+    background:green;
+}
+.properties .two .items .text .view-property-two{
+    border-radius:5px;
+    background:teal;
+}
+.properties .two .items .text .status{
+    margin-bottom:.5rem;
+}
+.properties .two .items .text .status .to-sell{
+    background:#e09c9c
+}
+.properties .two .items .text .status .to-buy{
+    background:#9ce0b8;
+}
+.properties .two .items .text .status .container{
+    padding:.25vh 2.5vw;
+    color:#000;
+    text-align:center;
+    font-size:2vw;
+}
+.properties .content .two .items .text .action{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}
+.properties .content .two .items .text .action button{
+    border:none;
+    outline:none;
+    text-decoration:none;
+    padding:.5vh 0;
+    width:98%;
+    font-size:2.5vw;
+}
+.properties .content .two .items .text .action .accept{
+    background:teal;
+    color:#fff;
+    border-radius:5px 0 0 5px
+}
+.properties .content .two .items .text .action .decline{
+    background:rgb(226, 117, 135);
+    color:#fff;
+    border-radius:0 5px 5px 0;
+}
+/* .properties */
